@@ -23,4 +23,5 @@ void main()
 	Dk = sqrt(Dn);
 	cout << Dk << endl;
 	}
+	fin.close();
 }
