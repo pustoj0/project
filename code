@@ -16,8 +16,11 @@ void main()
 		n++;
 	}
 	Dn = D / n;
-	if (Dn < 0)
+	if (Dn < 1)
 		cout << "Error" << endl;
 	else
 	{
+	Dk = sqrt(Dn);
+	cout << Dk << endl;
+	}
 }
