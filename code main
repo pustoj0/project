@@ -7,6 +7,18 @@ using namespace std;
 int i, k, n;
 double D = 0, Dk, Dn;
 
+double cycle(int i, int k, double Dn, double D = 0, int n = 0)
+{
+	ifstream fin("numb.txt");
+	for (i = 0; !fin.eof(); i++)
+	{
+		fin >> k;
+		D = D + pow(k, 2);
+		n++;
+	}
+	fin.close();
+	return Dn = D / n;
+}
 
 void main()
 {
